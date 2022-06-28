@@ -7,12 +7,19 @@ Neste exemplo vamos utilizar um carro que necessita de consertos e irá para uma
 
 Primeiro é necessário selecionar dois ícones, um para o início do processo e outro para o final, basta clicar em “Add Additional Symbol” -> Apply Symbol”.
 
+![](carro01.png)
 
 
-Feito isso, selecione o Server em que ocorrerá o processo e defina o “State Assignments” e selecione o momento em que o ícone deve mudar, ao clicar em “Add” e em “State Variable Name”-> “ModelEntity.Picture”-> colocar o número do ícone que deverá ser exibido.
+Feito isso, selecione o Server em que ocorrerá o processo, vá em “State Assignments” e selecione o momento em que o ícone deve mudar, ao clicar em “Add” e em “State Variable Name”-> “ModelEntity.Picture”-> colocar o número do ícone que deverá ser exibido.
  
+ 
+![](carro02.png)
+
+
 A imagem a seguir mostra um carro com defeito entrando em uma oficina e após isso ele sairá arrumado.
  
+ 
+![](carro03.png)
 
 
 Processos
@@ -21,13 +28,14 @@ Delay
 Processo que estabelece o tempo em que algo deve ocorrer. Neste exemplo o conserto do carro vai demorar 10 minutos, isso será definido na aba “Processes”, selecione “Create”  e arraste “Delay” para o meio do início e do fim do processo. 
 Em “Delay Time” e “Units” especifique os parâmetros, é possível definir um nome para o processo, basta clicar com o botão esquerdo no processo e “Rename”.
  
+ 
+![](carro04.png)
 
 Após definido o processo, vá para o Server e coloque em algum dos casos, de acordo com o desejado, de “Add-On Process Triggers” . 
 
 
-
-
-
+ 
+![](carro05.png)
 
 
 
